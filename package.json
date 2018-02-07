@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Maximillion195/google-shopping-list#readme",
   "dependencies": {
-    "puppeteer": "^1.0.0"
+    "fs-extra": "^5.0.0",
+    "puppeteer": "^1.0.0",
+    "winston": "^3.0.0-rc1"
   }
 }
