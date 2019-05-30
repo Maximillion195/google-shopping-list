@@ -1,6 +1,6 @@
 {
   "name": "google-shopping-list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scrapes the shopping list from shoppinglist.google.com as Google does not seem to have an API for this.",
   "main": "index.js",
   "scripts": {
