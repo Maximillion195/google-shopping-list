@@ -1,5 +1,4 @@
-# Google Shopping List - App currently not working
-
+# Google Shopping List
 
 Scrapes the shopping list from shoppinglist.google.com as Google does not seem to have an API for this.
 

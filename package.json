@@ -4,7 +4,8 @@
   "description": "Scrapes the shopping list from shoppinglist.google.com as Google does not seem to have an API for this.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   "homepage": "https://github.com/Maximillion195/google-shopping-list#readme",
   "dependencies": {
     "fs-extra": "^5.0.0",
-    "puppeteer": "^1.0.0",
-    "winston": "^3.0.0-rc1"
+    "puppeteer": "^1.17.0",
+    "winston": "^3.2.1"
   }
 }
