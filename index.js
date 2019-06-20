@@ -75,7 +75,8 @@ exp.getList = async (creds, options = { cookies: false }) => {
 		let items = [];
 		let allItems = document.querySelectorAll(selector);
 		allItems.forEach(res => items.push(res.innerHTML.trim())); // Must use a forEach as it is a nodeList not an array, convert to array
-		items.pop(); // Removes last element from array as it is not a list item
+		// If the end of array is the 'checked off' list item remove it
+		if(items[items.length - 1].includes("checked off")) items.pop();
 		return items;
 	}, SHOPPINGLIST_ITEMS) );
 	if(err) return Error("Unable to get the shopping list items");
