@@ -35,4 +35,4 @@ It is recommened to make a new Google account, share your shopping list and make
 
 [puppeteer](https://www.npmjs.com/package/puppeteer)
 [fs-extra"](https://www.npmjs.com/package/fs-extra)
-[winston])(https://www.npmjs.com/package/winston)
+[winston](https://www.npmjs.com/package/winston)
