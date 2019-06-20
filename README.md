@@ -2,7 +2,7 @@
 
 Scrapes the shopping list from shoppinglist.google.com as Google does not seem to have an API for this.
 
-It is recommened to make a new Google account, share your shopping list and make it the primary list.
+It is recommened to make a new Google account, share your shopping list and make it the primary list. Make sure not to set any extra security features other than a password, this will cause the script to break.
 
 ## Usage 
 
@@ -34,3 +34,5 @@ It is recommened to make a new Google account, share your shopping list and make
 ## Dependencies
 
 [puppeteer](https://www.npmjs.com/package/puppeteer)
+[fs-extra"](https://www.npmjs.com/package/fs-extra)
+[winston](https://www.npmjs.com/package/winston)
