@@ -7,7 +7,7 @@ const ERROR_CHECK = 'body > div > div.main.content.clearfix > div',
 	USERNAME_SELECTOR = '#Email',
 	EMAIL_NEXT_BUTTON = '#next',
 	PASSWORD_SELECTOR = '#Passwd',
-	PASSWORD_NEXT_BUTTON = '#signIn',
+	PASSWORD_NEXT_BUTTON = '#submit',
 	SHOPPINGLIST_ITEMS = '.listItemTitle';
 
 let exp = module.exports;
